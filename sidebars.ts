@@ -7,12 +7,13 @@ const sidebars: SidebarsConfig = {
     'idempotency',
     'errors',
     {
-      type: 'category',
-      label: 'BTM',
-      items: [
-        'btm/overview',
-      ],
-    },
+  type: 'category',
+  label: 'BTM',
+  items: [
+    'btm/overview',
+    'btm/getaccount',
+  ],
+},
     {
       type: 'category',
       label: 'Game Launcher',
