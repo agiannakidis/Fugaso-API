@@ -6,12 +6,14 @@ const sidebars: SidebarsConfig = {
     'security',
     'idempotency',
     'errors',
-    {
+   {
   type: 'category',
   label: 'BTM',
   items: [
     'btm/overview',
     'btm/getaccount',
+    'btm/getbalance',
+    'btm/wager',
   ],
 },
     {
